@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi8/openjdk-11:latest as builder
+FROM registry.access.redhat.com/ubi8/openjdk-8:latest as builder
 WORKDIR /build
 ARG APP
 
